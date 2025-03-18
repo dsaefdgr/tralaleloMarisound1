@@ -1,0 +1,45 @@
+
+body {
+	background: #262626;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+button{
+	padding: 20px 50px;
+	outline: none;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+
+}
+.button {
+  border: none;
+  position: fixed;
+  top: calc(50% - 22px);
+  left: calc(50% - 82px);
+  width: 150px;
+  text-align: center;
+  background-color: #00f0a8;
+  height: 45px;
+  line-height: 42px;
+  padding: 0 30px;
+  font-size: 20px;
+  border-radius: 30px;
+  color: #282d32;
+  cursor: pointer;
+  outline: 0;
+}
+.button:hover {
+  transform: scale(1.1, 1.1);
+}
+img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom:1.5;
+  left: 0;
+
+  margin: auto;
+}
